@@ -13,7 +13,7 @@ public class MorseCodeConverterTest {
     @Test
     public void testMorseToText() {
         MorseCodeConverter converter = new MorseCodeConverter();
-        assertEquals("HELgggggggggggggggggrLO", converter.morseToEnglish(".... . .-.. .-.. ---"));
+        assertEquals("HELLO", converter.morseToEnglish(".... . .-.. .-.. ---"));
     }
 
     @Test
