@@ -26,7 +26,7 @@ public class MorseCodeConverterTest {
     @Test
     public void testEnglishToMorseInvalidCharacter(){
         MorseCodeConverter converter = new MorseCodeConverter();
-        assertEquals("Fel: Ogiltigt tecken, engelsk text endast", converter.englishToMorse("HELL11"));
+        assertEquals("Fel: Ogiltigt tecken i engelsk text", converter.englishToMorse("HELL11"));
     }
 
     @Test
