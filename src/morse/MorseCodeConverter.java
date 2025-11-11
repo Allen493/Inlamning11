@@ -32,7 +32,7 @@ import java.util.Map;
                 result = result.concat(englishToMorse.get(letter)).concat(" ");
             }
         } catch (Exception e) {
-            return "Fel: Ogiltigt tecken i engelsk !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!text";
+            return "Fel: Ogiltigt tecken i engelsk !!!!!!!!fdgdfgdfgdfg!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!text";
         }
         return result.trim();
     }
